@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     min-height: 100%;
+    position: relative;
 }
 .wrapper {
     height: 100vh;
@@ -68,8 +69,6 @@ border-bottom: 3px solid var(--main-yellow);
     width: 100%;
     height: 100%;
     position: relative;
-    transform-style: preserve-3d;
-    z-index: -1;
 }
 .home-main__background {
     width: 100%;
@@ -199,6 +198,7 @@ border-bottom: 3px solid var(--main-yellow);
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .home__footer-title {
     font-size: 3rem;
@@ -223,6 +223,97 @@ border-bottom: 3px solid var(--main-yellow);
 .home__footer-quote-btn:hover {
     filter: brightness(.9);
 }
+.home__footer-modal-open-wrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    background-color: var(--main-black);
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
+.home__footer-quote-form {
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.quote-form__exit {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
+.quote-form__exit:hover {
+    filter: brightness(.9);
+}
+.quote-form__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 80px;
+    padding-bottom: 35px;
+}
+.quote-form__title > span {
+    color: var(--main-yellow);
+}
+.quote-form__input {
+    width: 500px;
+    padding: 12px;
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+}
+#quote__text-area {
+    height: 100px;
+    max-height: 130px;
+    vertical-align: top;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+.quote-form__input:focus {
+    outline: 2px solid var(--main-yellow);
+}
+.quote-form__btn {
+    width: 500px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: var(--main-yellow);
+    padding: 12px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
+.quote-form__btn:hover {
+    filter: brightness(.9);
+}
+
 .home__footer-Phone {
     color: var(--main-yellow);
     font-weight: 700;

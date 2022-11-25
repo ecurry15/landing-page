@@ -81,7 +81,7 @@
             <h1 class="home__footer-title">
                 CONTACT US TODAY FOR <span>A FREE QUOTE!</span>
             </h1>
-            <button class="home__footer-quote-btn">
+            <button class="home__footer-quote-btn" data-quote-form-open>
                 FREE QUOTE
             </button>
             <h3 class="home__footer-Phone">
@@ -95,9 +95,20 @@
                <a href="" class="footer__icon"><i class="fa-brands fa-youtube"></i></a>
                <a href="" class="footer__icon"><i class="fa-brands fa-instagram"></i></a>
             </ul>
-            <p class="footer__copyright">© 2021 All Rights Reserved </p>
+            <p class="footer__copyright">© 2021 All Rights Reserved</p>
         </section>
+    </div>
+    <form class="home__footer-quote-form" data-quote-form>
+        <h1 class="quote-form__title" data-quote-form>REQUEST A <span data-quote-form>FREE QUOTE</span></h1>
+        <input class="quote-form__input" type="text" placeholder="Name" required data-quote-form>
+        <input class="quote-form__input" type="email" placeholder="Email (example@email.com)" required data-quote-form>
+        <textarea class="quote-form__input" type="text" placeholder="Comment" id="quote__text-area" required cols="30" rows="10" data-quote-form></textarea>
+        <button class="quote-form__btn" type="submit" data-quote-form>GET FREE QUOTE</button>
+        <div class="quote-form__exit"><i class="fa-solid fa-xmark"></i></div>
+    </form>
+    <div class="home__footer-modal-open-wrap">
     </div>
 </body>
 <script src="https://kit.fontawesome.com/0889b6791b.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
