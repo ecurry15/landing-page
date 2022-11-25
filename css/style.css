@@ -195,7 +195,10 @@ border-bottom: 3px solid var(--main-yellow);
     background-color: var(--main-black);
     width: 100%;
     text-align: center;
-    padding: 70px 0px 20px;
+    padding: 70px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .home__footer-title {
     font-size: 3rem;
@@ -231,5 +234,23 @@ border-bottom: 3px solid var(--main-yellow);
 .home__footer-Phone > span {
     font-weight: 400;
     margin-top: 10px;
-
+}
+.footer__social-icons {
+    margin-top: 30px;
+    display: flex;
+}
+.footer__icon {
+    color: white;
+    font-size: 1.45rem;
+    padding: 10px 13px;
+    text-decoration: none;
+    transition: .2s all ease-in;
+}
+.footer__icon:hover {
+    background-color: rgb(30,73,76);
+} 
+.footer__copyright {
+color: white;
+margin-top: 20px;
+font-size: .95rem;
 }
