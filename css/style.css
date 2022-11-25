@@ -14,9 +14,11 @@ body {
 }
 .wrapper {
     height: 100vh;
+    width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
+    perspective: 10px;
 }
 .main-nav {
     width: 100%;
@@ -65,21 +67,16 @@ border-bottom: 3px solid var(--main-yellow);
 .home-main {
     width: 100%;
     height: 100%;
-    z-index: -2;
-    perspective: 10px;
     position: relative;
+    transform-style: preserve-3d;
+    z-index: -1;
 }
 .home-main__background {
     width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
-    transform: translateZ(-10px) scale(2);
-}
-.home__details {
-    width: 100%;
-    padding: 90px 120px;
-    background-color: var(--main-black);
+    transform: translateZ(-10px) scale(2.05);
 }
 .home__hero-section {
     position: absolute;
@@ -87,14 +84,9 @@ border-bottom: 3px solid var(--main-yellow);
     width: 800px;
     background-color: white;
     margin-top: 50px;
-    margin-left: 100px;
-}
-.home__details-text {
-    color: white;
-    font-size: 1.5rem;
-    line-height: 1.65;
-    text-align: center;
-    white-space: pre-wrap;
+    margin-left: 65px;
+    z-index: 2;
+    transform: translateZ(-3px) scale(1.2);
 }
 .hero-section__text {
     text-align: left;
@@ -106,9 +98,34 @@ border-bottom: 3px solid var(--main-yellow);
    padding: 60px 60px;
 }
 .hero-section__text > span {
-    color: var(--main-black);
+    color: var(--main-yellow);
 }
 .hero-section__quote-btn {
     border: none;
     background-color: var(--main-yellow);
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--main-black);
+    font-weight: 700;
+    padding: 20px 25px;
+    margin-left: 60px;
+}
+.hero-section__quote-btn:hover {
+    filter: brightness(.9);
+}
+.home__details {
+    width: 100%;
+    height: 350px;
+    background-color: var(--main-black);
+    display: flex;
+    align-items: center;
+}
+.home__details-text {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: center;
+    white-space: pre-wrap;
+    z-index: 10;
+    padding: 0 130px;
 }
