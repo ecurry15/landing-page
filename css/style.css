@@ -285,7 +285,7 @@ color: var(--main-yellow);
     color: var(--main-yellow);
 }
 .quote-form__input {
-    width: 500px;
+    width: 70%;
     padding: 12px;
     font-size: 1.05rem;
     margin-bottom: 15px;
@@ -304,7 +304,7 @@ color: var(--main-yellow);
     outline: 2px solid var(--main-yellow);
 }
 .quote-form__btn {
-    width: 500px;
+    width: 70%;
     border: none;
     font-size: 1.1rem;
     font-weight: 700;
@@ -467,4 +467,66 @@ max-width: 950px;
 font-size: 1.5rem;
 text-align: left;
 font-weight: 400;
+}
+.contact__main {
+    width: 100%;
+    height: 500px;
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(10, 24, 25, 0.41), rgba(10, 24, 25, 0.41)), url(https://lh3.googleusercontent.com/i_F4sXggU7qWRD23SHWpsOfy8dRfP92jMu3P2zsZatT2YjJ2gHdr9sVtiHOMB1EzGpojKBmxVKR62bxXbY-gjZsRE8RT8Xnkjg=w1603);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact__main-h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3.9rem;
+    white-space: pre-line;
+    text-align: center;
+}
+.contact__main-h1 > span  {
+    color: var(--main-yellow);
+}
+.contact__connect-wrapper {
+    width: 1000px;
+    padding: 50px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.contact__title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 25px 0;
+    color: var(--main-black);
+}
+.contact__p {
+    color: var(--main-black);
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+.contact__quote-form {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__footer-Phone {
+    color: var(--main-yellow);
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact__footer-Phone > span {
+    font-weight: 400;
+    padding-top: 10px;
 }
