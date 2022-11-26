@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassle-free moving</title>
+    <link rel="icon" href="assets/truck.png" type="image/icon type">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-nav" id="services__nav">
+            <a class="main-nav__logo" href="index.html">
+                <img class="main-nav__logo-img" src="https://lh3.googleusercontent.com/PCWZRcWyEOsr2X7Utk4p26G5BGGCEoIQbYqrpYu4-DZxae9xO0CbBdft9A5H7NCvi28Dk0Ot48fX5YHntAkZYmwT3GAiEs27YoA=s0" alt="">
+            </a>
+            <nav class="main-nav__right-container">
+                <li class="main-nav__section"><a href="#" id="main-nav__Active-section">SERVICES</a></li>
+                <li class="main-nav__section"><a href="#" id="main-nav__nonActive-section">ABOUT</a></li>
+                <li class="main-nav__section"><a href="#" id="main-nav__nonActive-section">CONTACT</a></li>
+                <li class="main-nav__section"><a href="#" id="main-nav__quote-btn">FREE QUOTE</a></li>
+            </nav>
+        </header>
+        <section class="services__main">
+            <h1 class="services__main-h1">OUR PROFESSIONAL SERVICES<span>.</span></h1>
+        </section>
+        <section class="services__services-wrapper">
+            <div class="service-container one">
+                <div class="service__img-container one">
+                </div>
+                <div class="service__details">
+                    <h3>LOCAL MOVING</h3>
+                    <p>Whether you’re looking to move to or from an apartment, home, condo, townhome, or any other residential area, our team of experts offers top-notch moving and delivery services. To keep your expenses to a minimum, we define a local residential move as being any move that happens within the state of Washington. From loading and unloading to packing and rearranging, the team at Smooth Operators takes the stress out of your move.</p>
+                </div>
+
+            </div>
+            <div class="service-container two">
+                <div class="service__img-container two">
+                </div>
+                <div class="service__details" id="service-container__yellow-bg">
+                    <h3>CROSS-COUNTRY MOVING</h3>
+                    <p>Long-distance moving doesn’t have to be an overwhelming guessing game. We offer guaranteed arrival times and provide a wide variety of delivery window options to ensure you receive your items in a convenient and on-time manner. For additional peace of mind, we also offer real-time GPS tracking in all of our trucks so that you can view the exact location of your belongings at any time.</p>
+                </div>
+
+            </div>
+            <div class="service-container three">
+                <div class="service__img-container three">
+                </div>
+                <div class="service__details">
+                    <h3>STORAGE</h3>
+                    <p>Smooth Operators offers a full range of custom climate-controlled storage units to safely house your items until your new home is ready. We offer easy unit access so that you can retrieve items at your convenience as well as 24/7 on-site security.</p>
+                </div>
+
+            </div>
+            <div class="service-container four">
+                <div class="service__img-container four">
+                </div>
+                <div class="service__details" id="service-container__yellow-bg">
+                    <h3>PACKING</h3>
+                    <p>Looking to do your own packing? No problem! We offer a variety of moving boxes and supplies including bubble wrap, tape, packing paper, and more. Looking to keep the move headache-free? We’ve got your back! Our licensed team has extensive packing and unpacking training and we can handle any items no matter their shapes or sizes.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="main__footer">
+            <h1 class="main__footer-title">
+                CONTACT US TODAY FOR <span>A FREE QUOTE!</span>
+            </h1>
+            <button class="main__footer-quote-btn" data-quote-form-open>
+                FREE QUOTE
+            </button>
+            <h3 class="main__footer-Phone">
+                Do you prefer to chat over the phone?
+                <span>123-456-7890</span>
+            </h3>
+            <ul class="footer__social-icons">
+               <a href="" class="footer__icon"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="" class="footer__icon"><i class="fa-brands fa-twitter"></i></a>
+               <a href="" class="footer__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+               <a href="" class="footer__icon"><i class="fa-brands fa-youtube"></i></a>
+               <a href="" class="footer__icon"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+            <p class="footer__copyright">© 2021 All Rights Reserved</p>
+        </section>
+    </div>
+    <form class="main__footer-quote-form" data-quote-form>
+        <h1 class="quote-form__title" data-quote-form>REQUEST A <span data-quote-form>FREE QUOTE</span></h1>
+        <input class="quote-form__input" type="text" placeholder="Name" required data-quote-form>
+        <input class="quote-form__input" type="email" placeholder="Email (example@email.com)" required data-quote-form>
+        <textarea class="quote-form__input" type="text" placeholder="Comment" id="quote__text-area" required cols="30" rows="10" data-quote-form></textarea>
+        <button class="quote-form__btn" type="submit" data-quote-form>GET FREE QUOTE</button>
+        <div class="quote-form__exit"><i class="fa-solid fa-xmark"></i></div>
+    </form>
+    <div class="main__footer-modal-open-wrap">
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/0889b6791b.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
