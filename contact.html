@@ -20,7 +20,7 @@
                 <li class="main-nav__section"><a href="services.html" id="main-nav__nonActive-section">SERVICES</a></li>
                 <li class="main-nav__section"><a href="about.html" id="main-nav__nonActive-section">ABOUT</a></li>
                 <li class="main-nav__section"><a href="#" id="main-nav__Active-section">CONTACT</a></li>
-                <li class="main-nav__section"><a href="#" id="main-nav__quote-btn">FREE QUOTE</a></li>
+                <li class="main-nav__section"><a href="#" id="main-nav__quote-btn" data-quote-form-open>FREE QUOTE</a></li>
             </nav>
         </header>
         <section class="contact__main">
@@ -40,7 +40,7 @@
             <form class="contact__quote-form">
                 <input class="quote-form__input" id="contact__input" type="text" placeholder="Name" required>
                 <input class="quote-form__input" id="contact__input" type="email" placeholder="Email (example@email.com)" required>
-                <textarea class="quote-form__input"type="text" placeholder="Comment" id="quote__text-area" required cols="30" rows="10"></textarea>
+                <textarea class="quote-form__input"type="text" placeholder="Comment" id="quote__text-area" cols="30" rows="10"></textarea>
                 <button class="quote-form__btn" id="contact__btn" type="submit">SEND</button>
                 <div class="quote-form__exit"><i class="fa-solid fa-xmark"></i></div>
             </form>
@@ -59,6 +59,16 @@
             </ul>
             <p class="footer__copyright">© 2021 All Rights Reserved</p>
         </section>
+    </div>
+    <form class="main__footer-quote-form" data-quote-form>
+        <h1 class="quote-form__title" data-quote-form>REQUEST A <span data-quote-form>FREE QUOTE</span></h1>
+        <input class="quote-form__input" type="text" placeholder="Name" required data-quote-form>
+        <input class="quote-form__input" type="email" placeholder="Email (example@email.com)" required data-quote-form>
+        <textarea class="quote-form__input" type="text" placeholder="Comment" id="quote__text-area" cols="30" rows="10" data-quote-form></textarea>
+        <button class="quote-form__btn" type="submit" data-quote-form>GET FREE QUOTE</button>
+        <div class="quote-form__exit"><i class="fa-solid fa-xmark"></i></div>
+    </form>
+    <div class="main__footer-modal-open-wrap">
     </div>
 </body>
 <script src="https://kit.fontawesome.com/0889b6791b.js" crossorigin="anonymous"></script>
