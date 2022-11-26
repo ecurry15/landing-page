@@ -518,6 +518,15 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
+}
+#contact__input {
+    height: 55px;
+}
+
+#contact__btn {
+    height: 55px;
+    font-size: 1.3rem;
 }
 .contact__footer-Phone {
     color: var(--main-yellow);
