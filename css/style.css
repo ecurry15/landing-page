@@ -699,4 +699,14 @@ font-weight: 400;
         min-width: 520px;
         margin-top: 50px;
     }
+    .about__main {
+        width: 85%;
+        min-width: 520px;
+    }
+    .main-content__h2 {
+        font-size: 3.1rem;
+    }
+    .main-content__p {
+        font-size: 1.4rem;
+    }
 }
