@@ -639,3 +639,54 @@ font-weight: 400;
         padding: 50px 0;
     }
 }
+@media screen and (max-width: 789.98px) {
+    .main-nav {
+        height: 80px;
+    }
+    .main-nav__logo-img {
+        width: 150px;
+    }
+    .main-nav__mobile-menu-icon > i {
+        font-size: 1.8rem;
+    }
+    .home__hero-section {
+        width: 80%;
+        min-width: 520px;
+        height: 470px;
+    }
+    .hero-section__text {
+        font-size: 3.7rem;
+        white-space: normal;
+        padding: 50px 20px 80px 30px;
+    }
+    .hero-section__quote-btn {
+        margin-left: 30px;
+    }
+    .home__details {
+        height: 370px;
+    }
+    .home__details-text {
+        min-width: 510px;
+        width: 85%;
+        font-size: 1.3rem;
+    }
+    .home__services-container {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .home__service-text {
+        max-width: 80%;
+    }
+    .main__footer-title {
+        font-size: 2.5rem;
+        max-width: 520px;
+    }
+    .main__footer-quote-btn {
+        font-size: 1.2rem;
+        padding: 12px 22px;
+    }
+    .main__footer-Phone {
+        font-size: 1.3rem;
+        margin-top: 90px;
+    }
+}
