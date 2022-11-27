@@ -497,8 +497,8 @@ font-weight: 400;
     color: white;
     font-weight: 700;
     font-size: 3.9rem;
-    white-space: pre-line;
     text-align: center;
+    line-height: 1.1;
 }
 .contact__main-h1 > span  {
     color: var(--main-yellow);
@@ -604,5 +604,38 @@ font-weight: 400;
     }
     .service__details {
         width: 100%;
+    }
+    .about__main {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 760px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .about__main-img-container {
+        width: 100%;
+        height: 200px;
+        background-position: bottom;
+    }
+    .about__main-content {
+        padding: 15px 0 0;
+    }
+    .main-content__h2 {
+        padding: 0 0 20px;
+    }
+    .main-content__p {
+        text-align: center;
+    }
+    .contact__main-h1 {
+        max-width: 600px;
+    }
+    .contact__connect-wrapper {
+        width: 760px;
+        padding: 50px 0;
     }
 }
