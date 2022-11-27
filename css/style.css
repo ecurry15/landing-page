@@ -219,9 +219,10 @@ color: var(--main-yellow);
 }
 .main__footer-title {
     font-size: 3rem;
+    line-height: 1.2;
     font-weight: 700;
     color: white;
-    padding: 20px 0 30px;
+    padding: 20px 10px 30px;
 }
 .main__footer-title > span {
     color: var(--main-yellow);
@@ -574,5 +575,13 @@ font-weight: 400;
     .home__details-text {
         max-width: 720px;
         font-size: 1.3rem;
+    }
+    .home__services-container {
+        flex-direction: column;
+        width: 768px;
+    }
+    .home__service {
+        width:100%;
+        max-width: 100%;
     }
 }
