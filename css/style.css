@@ -638,6 +638,9 @@ font-weight: 400;
         width: 760px;
         padding: 50px 0;
     }
+    .contact__quote-form {
+        width: 760px;
+    }
 }
 @media screen and (max-width: 789.98px) {
     .main-nav {
@@ -691,7 +694,7 @@ font-weight: 400;
     }
     .services__main-h1 {
         max-width: 520px;
-        font-size: 3.6rem;
+        font-size: 3.5rem;
         line-height: 1.1;
     }
     .services__services-wrapper {
@@ -709,4 +712,27 @@ font-weight: 400;
     .main-content__p {
         font-size: 1.4rem;
     }
+    .contact__main-h1 {
+        max-width: 520px;
+        font-size: 3.5rem;
+    }
+    .contact__connect-wrapper {
+        width: 85%;
+        min-width: 550px;
+        padding: 50px 0;
+    }
+    .contact__quote-form {
+        width: 100%;
+    }
+    #contact__btn {
+        font-size: 1.2rem;
+    }
+    .contact__footer-Phone {
+        font-size: 1.3rem;
+    }
+    .main__footer-quote-form {
+        width: 500px;
+        height: 480px;
+    }
+  
 }
