@@ -689,4 +689,14 @@ font-weight: 400;
         font-size: 1.3rem;
         margin-top: 90px;
     }
+    .services__main-h1 {
+        max-width: 520px;
+        font-size: 3.6rem;
+        line-height: 1.1;
+    }
+    .services__services-wrapper {
+        width: 90%;
+        min-width: 520px;
+        margin-top: 50px;
+    }
 }
