@@ -395,6 +395,7 @@ color: var(--main-black);
     border-radius: 3px;
     cursor: pointer;
     transition: .2s all ease-in;
+    color: var(--main-black);
 }
 .quote-form__btn:hover {
     filter: brightness(.9);
