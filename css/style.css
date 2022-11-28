@@ -928,5 +928,88 @@ font-weight: 400;
     font-size: 1.1rem;
     margin-top: 50px;
 }
+.services__main {
+    height: 400px;
+    min-height: 45vh;
+}
+.services__main-h1 {
+    max-width: 380px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.services__services-wrapper {
+    width: 94%;
+    min-width: 290px;
+}
+.service__details > h3 {
+    font-size: 1.15rem;
+    padding: 40px 30px 20px;
+}
+.service__details > p {
+    font-size: 1.05rem;
+    padding: 10px 30px 30px 30px;
+}
+.about__main {
+    width: 92%;
+    min-width: 280px;
+}
+.about__main-img-container {
+    width: 100%;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content__h2 {
+    font-size: 2.4rem;
+}
+.main-content__p {
+    font-size: 1.05rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact__main {
+    height: 400px;
+    min-height: 45vh;
+}
+.contact__main-h1 {
+    max-width: 380px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.contact__connect-wrapper {
+    width: 90%;
+    min-width: 300px;
+    padding: 35px 0;
+}
+.contact__title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.contact__p {
+    font-size: 1.1rem;
+}
+.contact__footer-Phone {
+    font-size: 1.1rem;
+    max-width: 320px;
+}
+.main__footer-quote-form {
+    width: 90%;
+    height: 460px;
+    min-width: 280px;
+}
+.quote-form__title {
+    font-size: 1.6rem;
+    max-width: 280px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 70px;
+    padding-bottom: 25px;
+}
+.quote-form__input {
+    font-size: .9rem;
+}
+.quote-form__btn {
+    font-size: 1rem;
+}
 
 }
