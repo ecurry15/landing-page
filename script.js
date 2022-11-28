@@ -1,3 +1,15 @@
+//Method to get a set value for vh -- fixes mobile vh problem ---
+let vh = window.innerHeight * 0.01;
+// set custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+window.addEventListener('resize', () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+
+
+
 const mainFooterQuoteBtn = document.querySelector('.main__footer-quote-btn');
 const mainFooterModalOpenBlur = document.querySelector('.main__footer-modal-open-wrap');
 const mainFooterForm = document.querySelector('.main__footer-quote-form');
