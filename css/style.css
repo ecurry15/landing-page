@@ -787,16 +787,13 @@ font-weight: 400;
     }
     .home__services-container {
         width: 90%;
+        margin-top: 20px;
     }
     .home__services-h1 {
         font-size: 2.3rem;
         max-width: 420px;
         margin-left: auto;
         margin-right: auto;
-    }
-    .home__services-container {
-        width: 80%;
-        margin-top: 20px;
     }
     .main__footer-title {
         font-size: 2.35rem;
@@ -888,4 +885,48 @@ font-weight: 400;
         height: 25px;
         width: 25px;
     }
+}
+@media screen and (max-width:439.98px) {
+    .home__hero-section {
+        width: 92%;
+        min-width: 280px;
+        height: 430px;
+    }
+    .hero-section__text {
+        font-size: clamp(2.5rem, 12vw, 3.4rem);
+        white-space: normal;
+        padding: 40px 20px 60px 20px;
+    }
+    .hero-section__quote-btn {
+        font-size: 1.1rem;
+        margin-left: 20px;
+        padding: 15px 30px;
+    }
+    .home__details {
+        width: 100%;
+        height: unset;
+}
+.home__details-text {
+    min-width: 280px;
+    width: 90%;
+    font-size: 1.15rem;
+    padding: 40px 0;
+}
+.home__services-h1 {
+    font-size: 2.1rem;
+    max-width: 320px;
+}
+.main__footer {
+    padding: 45px 0px 30px;
+}
+.main__footer-title {
+    font-size: 2.15rem;
+    max-width: 320px;
+    padding: 0px 0px 30px;
+}
+.main__footer-Phone {
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+
 }
