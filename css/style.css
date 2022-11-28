@@ -91,7 +91,7 @@ color: var(--main-yellow);
     right: 0;
     z-index: 3000;
     height: 100%;
-    width: 440px;
+    width: 0px;
 }
 .mobile__sideBar-close-btn {
     list-style: none;
@@ -99,12 +99,13 @@ color: var(--main-yellow);
     margin-left: 30px;
     font-size: 1.9rem;
     color: var(--main-yellow);
+    display: none;
 }
 .mobile-sideBar__nav {
-    display: flex;
     flex-direction: column;
     padding: 40px 25px;
     gap: 15px;
+    display: none;
 }
 .mobile-sideBar__nav > a {
 text-decoration: none;
@@ -134,20 +135,18 @@ color: var(--main-black);
     font-weight: 700;
     padding: 20px 0;
     color: var(--main-black);
+    display: none;
 }
 .mobile-sideBar__logo {
     position: absolute;
     bottom: 20px;
     right: 20px;
     width: 180px;
+    display: none;
 }
 .mobile-sideBar__logo > img {
     width: 100%;
 }
-
-
-
-
 
 
 
@@ -631,6 +630,39 @@ font-weight: 400;
     padding-top: 10px;
 }
 
+@keyframes large-mobile-sideBar-open {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 440px;
+    }
+}
+@keyframes large-mobile-sideBar-close {
+    0% {
+        width: 440px;
+    }
+    100% {
+        width: 0px;
+    }
+}
+@keyframes small-mobile-sideBar-open {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes small-mobile-sideBar-close {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
 
 @media screen and (max-width: 1023.98px) {
     .main-nav__logo {
@@ -813,11 +845,6 @@ font-weight: 400;
         height: 480px;
     }
   
-}
-@media screen and (max-width:767.98px) {
-    .mobile__nav-sideBar {
-        width: 100%;
-    }
 }
 @media screen and (max-width:549.98px) {
     .main-nav {
