@@ -84,6 +84,79 @@ color: var(--main-yellow);
     color: var(--main-yellow);
     font-size: 2rem;
 }
+.mobile__nav-sideBar {
+    position: absolute;
+    top: 0;
+    background-color: var(--grey-background);
+    right: 0;
+    z-index: 3000;
+    height: 100%;
+    width: 440px;
+}
+.mobile__sideBar-close-btn {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1.9rem;
+    color: var(--main-yellow);
+}
+.mobile-sideBar__nav {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 25px;
+    gap: 15px;
+}
+.mobile-sideBar__nav > a {
+text-decoration: none;
+color: var(--main-black);
+}
+.mobile-sideBar__section {
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    color: var(--main-black);
+}
+#mobile-sideBar__active {
+    border-left: 3px solid var(--main-yellow);
+    color: var(--main-yellow);
+}
+.mobile-sideBar__btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: var(--main-yellow);
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px 0;
+    color: var(--main-black);
+}
+.mobile-sideBar__logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 180px;
+}
+.mobile-sideBar__logo > img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .home-main {
     width: 100%;
     height: 100%;
