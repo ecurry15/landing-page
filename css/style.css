@@ -785,6 +785,9 @@ font-weight: 400;
         width: 85%;
         font-size: 1.25rem;
     }
+    .home__services-container {
+        width: 90%;
+    }
     .home__services-h1 {
         font-size: 2.3rem;
         max-width: 420px;
@@ -794,9 +797,6 @@ font-weight: 400;
     .home__services-container {
         width: 80%;
         margin-top: 20px;
-    }
-    .home__service-text {
-        max-width: 90%;
     }
     .main__footer-title {
         font-size: 2.35rem;
@@ -809,5 +809,83 @@ font-weight: 400;
     .footer__icon {
         color: white;
         font-size: 1.35rem;
+    }
+    .services__main-h1 {
+        max-width: 440px;
+        font-size: 3.2rem;
+        line-height: 1.1;
+    }
+    .services__services-wrapper {
+        width: 94%;
+        min-width: 420px;
+    }
+    .service__details > h3 {
+        font-size: 1.3rem;
+    }
+    .service__details > p {
+        font-size: 1.15rem;
+    }
+    .about__main {
+        width: 90%;
+        min-width: 420px;
+    }
+    .about__main-img-container {
+        width: 100%;
+        height: 220px;
+        background-position: bottom;
+    }
+    .about__main-content {
+        padding: 0px 0 0;
+    }
+    .main-content__h2 {
+        font-size: 2.7rem;
+    }
+    .main-content__p {
+        font-size: 1.2rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .contact__main-h1 {
+        max-width: 420px;
+        font-size: 3.2rem;
+    }
+    .contact__connect-wrapper {
+        width: 90%;
+        min-width: 420px;
+        padding: 50px 0;
+    }
+    .contact__title {
+        font-size: 1.8rem;
+    }
+    .quote-form__input {
+        width: 90%;
+        padding: 12px;
+        font-size: .95rem;
+    }
+    .quote-form__btn {
+        width: 90%;
+    }
+    #contact__btn {
+        font-size: 1.1rem;
+    }
+    .contact__footer-Phone {
+        font-size: 1.2rem;
+    }
+    .main__footer-quote-form {
+        width: 90%;
+        height: 460px;
+        min-width: 420px;
+    }
+    .quote-form__title {
+        font-size: 1.7rem;
+        margin-top: 80px;
+        padding-bottom: 35px;
+    }
+    .quote-form__exit {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        height: 25px;
+        width: 25px;
     }
 }
